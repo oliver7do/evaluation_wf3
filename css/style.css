@@ -1,0 +1,360 @@
+@font-face {
+    font-family: boldweb;
+    src: url(../font/LiberationSans-Bold-webfont.ttf);
+}
+
+@font-face {
+    font-family: regularweb;
+    src: url(../font/LiberationSans-Regular-webfont.ttf);
+}
+
+/*************** HEADER ***************/
+header {
+    width: 90%;
+    margin: auto;
+
+}
+
+.sport {
+    display: flex;
+    justify-content: space-around;
+    font-family: regularweb;
+}
+
+.juju {}
+
+.bonjour ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
+
+.bonjour u li a {
+    justify-content: space-between;
+}
+
+/*************** END HEADER ***************/
+
+/*************** MAIN ***************/
+body {
+    font-family: regularweb;
+}
+
+.fond {
+    width: 100%;
+    margin-left: 10%;
+}
+
+main {
+    background-color: #1c1c1c;
+    width: 100%;
+    margin: auto;
+}
+
+/*************** DISCOUNT LINE BOX ***************/
+.discount {
+    position: absolute;
+    background-color: #1c1c1c;
+    margin-left: 300px;
+    border: 5px solid #1c1c1c;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #e68f15;
+    font-size: 30px;
+    font-family: boldweb;
+}
+
+.discount1 {
+    position: absolute;
+    background-color: #1c1c1c;
+    margin-left: 314px;
+    border: 5px solid #1c1c1c;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #e68f15;
+    font-size: 30px;
+    font-family: boldweb;
+}
+
+.discount2 {
+    position: absolute;
+    background-color: #1c1c1c;
+    margin-left: 300px;
+    border: 5px solid #1c1c1c;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #e68f15;
+    font-size: 30px;
+    font-family: boldweb;
+}
+
+.discount3 {
+    position: absolute;
+    background-color: #1c1c1c;
+    margin-left: 314px;
+    border: 5px solid #1c1c1c;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #e68f15;
+    font-size: 30px;
+    font-family: boldweb;
+}
+
+/*************** END DISCOUNT LINE BOX ***************/
+/*************** LINE BOX ***************/
+.container1 {
+    background-color: #f3f3f3;
+    width: 80%;
+    height: 1200px;
+    margin: auto;
+}
+
+/*************** LINE BOX 1 ***************/
+.container11 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container112 {
+    float: left;
+    height: 128px;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+
+.container113 {
+    margin-top: 60px;
+    margin-right: 160px;
+    float: left;
+}
+
+/*************** ALL THE GANTS ***************/
+.gants {
+    background-color: #ffff;
+    position: absolute;
+    bottom: -140px;
+    margin-left: 30px;
+}
+
+.gants1 {
+    background-color: #ffff;
+    position: absolute;
+    bottom: -145px;
+    left: 1218px;
+
+
+}
+
+.gants2 {
+    background-color: #ffff;
+    position: absolute;
+    bottom: -620px;
+    margin-left: 30px;
+
+}
+
+.gants3 {
+    background-color: #ffff;
+    position: absolute;
+    bottom: -620px;
+    left: 1218px;
+}
+
+/*************** END ALL THE GANTS ***************/
+/*************** LINE BOX 2 ***************/
+.container12 {
+    display: flex;
+    justify-content: space-between
+}
+
+.container121 {
+    float: left;
+    height: 128px;
+    width: 128px;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+
+.container122 {
+    float: left;
+    margin-right: 159px;
+    margin-top: 60px;
+}
+
+/*************** END LINE BOX ***************/
+/*************** BUY LINE BOX ***************/
+.buttn {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.buttnn {
+    display: flex;
+}
+
+.numberr {
+    font-size: 30px;
+
+}
+
+.number {
+    font-size: 30px;
+    display: flex;
+}
+
+.number1 {
+    text-decoration: line-through;
+    margin-right: 20px;
+}
+
+.number2 {
+    color: #e68f15;
+
+}
+
+/* .buttn0 {
+    margin-top: 17px;
+} */
+.button1 {
+    text-decoration: none;
+    color: #ffff;
+    background-color: #1c1c1c;
+    padding: 10px;
+    margin-left: 8px;
+    align-content: center;
+    width: 173px;
+
+}
+
+.button3 {
+    text-decoration: none;
+}
+
+.button4 {
+    text-decoration: none;
+}
+
+
+
+
+
+/*************** END BUY LINE BOX ***************/
+.quisommes ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffff;
+    width: 30%;
+    margin-left: 450px;
+    border: 20px solid #ffff;
+    position: absolute;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 215px;
+}
+
+.quisommes li {
+    margin-right: 20px;
+
+
+}
+
+/*************** END MAIN ***************/
+
+/*************** FOOTER ***************/
+footer {
+    background-color: #373737;
+    width: 100%;
+    color: #ffff;
+}
+
+/*************** FOOT ***************/
+.foot {
+    display: flex;
+    margin-left: 15%;
+}
+
+.foot1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.foot2 {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.foot3 {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.foot4 {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+/*************** END FOOT ***************/
+/*************** HORI ***************/
+.hori {
+    margin-right: 40px;
+}
+
+/*************** ICOON ***************/
+.iconn {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.iconn1 {
+    margin-right: 100px;
+}
+
+.iconn2 {
+    margin-right: 40px;
+}
+
+.iconn3 {
+    margin-left: 50px;
+}
+
+/*************** COPY ***************/
+.copy {
+    text-align: center;
+}
+
+/*************** END HORI ***************/
+
+/*************** END FOOTER ***************/
+
+/*************** MEDIAQUERY ***************/
+
+
+@media (max-width: 576px) {
+    header {
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .sport {
+        display: block;
+
+    }
+        .spo{
+            text-align: center;
+    
+        }
+}
+
+;
+
+/*************** END MEDIAQUERY ***************/
